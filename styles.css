@@ -1,0 +1,58 @@
+body {
+  position: relative;
+}
+body .fondo {
+  width: 100%;
+  height: 100vh;
+}
+body .link-dir {
+  position: absolute;
+  top: 60%;
+  right: 24%;
+  width: 50%;
+}
+body .link-dir .direccion {
+  width: 100%;
+}
+body .redes {
+  position: absolute;
+  display: grid;
+  grid-template-columns: 30% 20% 30% 20%;
+  width: 100%;
+  bottom: 2%;
+}
+body .redes .link-linkedin {
+  width: 90%;
+}
+body .redes .link-linkedin .linkedin {
+  width: 100%;
+}
+body .redes .link-face {
+  width: 100%;
+}
+body .redes .link-face .facebook {
+  width: 100%;
+}
+body .redes .link-instagram {
+  width: 100%;
+}
+body .redes .link-instagram .instagram {
+  width: 100%;
+}
+body .redes .link-twitter {
+  width: 100%;
+}
+body .redes .link-twitter .twitter {
+  width: 100%;
+}
+body .link-wp {
+  position: absolute;
+  right: 24%;
+  bottom: 12%;
+  width: 15%;
+}
+body .qr {
+  width: 100%;
+}
+
+/*# sourceMappingURL=styles.css.map */
