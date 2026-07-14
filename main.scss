@@ -1,0 +1,172 @@
+body {
+
+    background-color: rgb(34, 33, 33);
+    position: relative;
+    margin: 0;
+    padding: 0;
+
+    .musica-fondo {
+
+        width: 20%;
+        display: none;
+
+    }
+
+    .fondo {
+        width: 100%;
+        height: 100%;
+    }
+    .logo-marolio{
+
+        position: absolute;
+        top: 6%;
+        width:40%;
+        left: 30%;
+
+        img{
+            width: 100%;
+        }
+
+    }
+
+    .nave {
+        position: absolute;
+        width: 40%;
+        left: 28%;
+        top: 21%;
+
+    }
+
+    .nene {
+        position: absolute;
+        width: 61%;
+        left: 12%;
+        top: 16%;
+
+    }
+
+
+
+
+
+    .nena {
+        position: absolute;
+        width: 61%;
+        right: 10%;
+        top: 16%;
+
+    }
+
+
+
+
+    .gala {
+        position: absolute;
+        width: 63%;
+        left: 18%;
+        top: 32%;
+
+
+    }
+
+    .sheraton {
+
+        position: absolute;
+        width: 75%;
+        left: 13%;
+        top: 55%;
+
+
+    }
+
+    .link-dir {
+
+        position: absolute;
+        top: 63%;
+        right: 15%;
+        width: 70%;
+
+        .direccion {
+
+            width: 100%;
+        }
+
+    }
+
+
+    .redes {
+        position: absolute;
+        display: grid;
+        grid-template-columns: 30% 20% 30% 20%;
+
+        width: 100%;
+        bottom: 2%;
+
+        .link-linkedin {
+            width: 90%;
+
+            .linkedin {
+
+                width: 100%;
+            }
+        }
+
+
+
+        .link-face {
+
+            width: 100%;
+
+            .facebook {
+
+                width: 100%;
+            }
+
+        }
+
+
+        .link-instagram {
+
+            width: 100%;
+
+            .instagram {
+
+                width: 100%;
+            }
+
+        }
+
+
+        .link-twitter {
+
+            width: 100%;
+
+            .twitter {
+
+                width: 100%;
+            }
+
+        }
+
+
+
+    }
+
+
+    .link-wp {
+
+        position: absolute;
+        right: 24%;
+        bottom: 12%;
+        width: 15%;
+    }
+
+    .qr {
+
+        width: 100%;
+
+    }
+
+
+
+}

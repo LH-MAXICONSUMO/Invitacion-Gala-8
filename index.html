@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Invitación Gala 8</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+
+<body>
+
+    <audio id="miAudio" class="musica-fondo" src="playback.mp3" controls autoplay></audio>
+    <audio id="miAudio2" class="musica-fondo" src="nenes-riendo.mp3" controls autoplay></audio>
+
+
+    <img class="fondo" src="./img/invitacion gala 8-5.png" alt="">
+
+    <a class="logo-marolio" href="https://www.marolio.com.ar/es/fundacion">
+
+        <img src="./img/logo-marolio.png" alt="">
+
+    </a>
+
+    <img class="nave" src="./img/nave.gif" alt="">
+
+    <img class="nene" src="./img/nene.gif" alt="">
+
+    <img class="nena" src="./img/nena.gif" alt="">
+
+    <img class="gala" src="./img/gala.gif" alt="">
+
+    <img class="sheraton" src="./img/sheraton.gif" alt="">
+
+    <a class="link-dir" href="https://maps.app.goo.gl/uAX62MGvoUmyBtd9A">
+
+        <img class="direccion" src="./img/direccion.png" alt="">
+
+    </a>
+
+
+    <div class="redes">
+
+        <a class="link-linkedin" href="https://ar.linkedin.com/company/fundacionmarolio">
+
+            <img class="linkedin" src="./img/linkedin.png" alt="">
+        </a>
+
+        <a class="link-face" href="https://www.facebook.com/fund.marolio/?locale=es_LA">
+
+            <img class="facebook" src="./img/facebook.png" alt="">
+
+        </a>
+
+        <a class="link-instagram" href="https://www.instagram.com/fundacionmaroliook/?hl=es-la">
+
+            <img class="instagram" src="./img/instagram.png" alt="">
+
+        </a>
+
+        <a class="link-twitter" href="https://x.com/fundmarolio">
+
+            <img class="twitter" src="./img/twitter.png" alt="">
+
+        </a>
+
+
+
+    </div>
+
+
+    <a class="link-wp"
+        href="https://wa.me/5491155778094?text=Hola!! &#128512 Me gustaría hacer una reserva a nombre de: "
+        target="_blank" rel="noopener">
+
+        <img class="qr" src="./img/qr.png" alt="">
+
+    </a>
+
+    <!-- MUSICA -->
+
+    <script>
+        document.addEventListener('click', () => {
+            const audio = document.getElementById('miAudio');
+            audio.volume = 0.7;
+
+            audio.play();
+        }, { once: true });
+    </script>
+
+    <script>
+        document.addEventListener('click', () => {
+            const audio = document.getElementById('miAudio2');
+
+            audio.volume = 0.5;
+            audio.play();
+
+        }, { once: true });
+    </script>
+
+</body>
+
+</html>
